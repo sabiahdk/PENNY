@@ -38,12 +38,17 @@ const Header = () => {
         </div>
         <div>
           <img
-            className="h-[570px] w-[400px] max-md:h-[380px]"
+            className="h-[570px] w-[400px] max-md:h-[430px]"
             src="./images/banner-phone_1.png "
             alt=""
           />
         </div>
       </div>
+        
+
+
+
+
     </div>
   );
 };

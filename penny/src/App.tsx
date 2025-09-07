@@ -1,3 +1,4 @@
+import Down from './Components/Down'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero'
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
 
       <Header/>
       <Hero/>
+      <Down/>
     </div>
   )
 }
