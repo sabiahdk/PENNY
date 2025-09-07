@@ -1,11 +1,11 @@
 import Header from './Components/Header/Header'
-// import Hero from './Components/Hero'
+import Hero from './Components/Hero'
 const App = () => {
   return (
     <div>
 
       <Header/>
-      {/* <Hero/> */}
+      <Hero/>
     </div>
   )
 }
