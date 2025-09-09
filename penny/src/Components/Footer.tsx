@@ -21,9 +21,21 @@ const Footer = () => {
           <h1 className="font-bold">FOLLOW US</h1>
           <p>Facebook</p>
           <p>Instagram</p>
-          <p>Twitter</p>
+          <p>Twitter</p> 
         </div>
+           
       </div>
+
+        <div className="flex justify-center m-16">
+
+         <p>Terms and condition</p> 
+
+              <h3>@2025 Penney</h3>
+          
+         
+        </div>
+
+
     </div>
   );
 };
