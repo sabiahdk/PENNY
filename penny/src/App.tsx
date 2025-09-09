@@ -1,4 +1,5 @@
 import Down from './Components/Down'
+import Footer from './Components/Footer'
 import Header from './Components/Header/Header'
 import Hero from './Components/Hero'
 import Hero2 from './Components/Hero2'
@@ -10,7 +11,7 @@ const App = () => {
       <Hero/>
       <Down/>
       <Hero2/>
-    
+      <Footer/>
     </div>
   )
 }

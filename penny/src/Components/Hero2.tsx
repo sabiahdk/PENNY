@@ -26,13 +26,13 @@ const Hero2 = () => {
   return (
     <div className="py-20 px-10 bg-[#FBFBFB] ">
       <div className="flex justify-center   ">
-        <h1 className="text-3xl font-medium max-md:flex-col ">
+        <h1 className="text-3xl font-medium max-md:w-[45%] text-[20px] ">
           See what people are saying about us
         </h1>
       </div>
 
       <div>
-        <div className=" flex gap-4 py-7 ">
+        <div className=" flex gap-4 py-7 max-md:flex-col items-center  ">
           {cardArray.map((items) =>(
             <div className=" w-[360px] py-4 px-6 gap-4 m-4 bg-white rounded-lg shadow-lg">
               <div className=" py-4 px-4  text-[18px] font-bold  ">
@@ -45,6 +45,16 @@ const Hero2 = () => {
             </div>
           ))}
         </div>
+       <div>
+         <div className="py-10 px-15 flex justify-center max-md:">
+          <h1 className="font-bold text-[36px]">Our Partners</h1>
+        </div>
+        <div >
+          <img  className=" max-md:w-[100%] m-6 py-4  pl-17   " src="./images/flutter.png" alt="" />
+
+        </div>
+
+       </div>
       </div>
     </div>
   );

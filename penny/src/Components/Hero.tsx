@@ -56,7 +56,7 @@ const Hero = () => {
           />
         </div>
         <div className="w-[690px] m-27 ">
-          <h1 className="text-[55px] font-bold max-md:w-[450px] text-2xl">
+          <h1 className="text-[55px] font-bold max-md:w-[400px] font-bold">
             Track your income and expenses
           </h1>
           <p className="text-[22px] max-md:w-[400px] mt-3">
